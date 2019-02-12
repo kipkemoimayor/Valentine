@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+html{
+  background-image: url(../images/circuit.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+
+}
+/*body{
+  background-color: rgba(1,1,1,0.9);
+}*/
+nav{
+  background-color: black;
+  padding: 20px;
+  text-align: right;
+  white-space: nowrap;
+  width: 97.5%;
+  position: fixed;
+  top:0;
+  z-index: 99;
+
+
+}
+nav a{
+  text-decoration: none;
+  padding: inherit;
+  color: white;
+}
+nav a:hover{
+  background-color: #784;
+  transition: 500ms;
+}
+#active{
+  background-color: blue;
+  color: white;
+}
+#active:hover{
+  color: inherit;
+  background-color: #784;
+  transition: 500ms;
+}
+.overal{
+  position: relative;
+  top:60px;
+
+}
+.one{
+  height: 30em;
+  width: 80%;
+  margin: auto;
+  background-color: rgba(0,0,0,0.9);
+  font-style: italic;
+
+}
+.one p{
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 2px;
+  margin: 10px;
+  color: white;
+
+}
+.two{
+  height: 30em;
+  width: 80%;
+  margin: auto;
+  background-color: rgba(0,0,0,0.9);
+  color: white;
+  margin-top: 10px;
+}
