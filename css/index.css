@@ -63,7 +63,10 @@ nav a:hover{
   line-height: 50px;
   letter-spacing: 2px;
   margin: 10px;
-  color: white;
+  color: red;
+  font-family: 'roboto';
+  text-align: center;
+
 
 }
 .two{
@@ -98,4 +101,31 @@ footer p{
   position: relative;
   left:-80px;
   padding: 10px;
+}
+.gif{
+  border: 2px solid red;
+  height: 10em;
+  background-image: url(../images/red.gif);
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: contain;
+}
+.gif button{
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  padding: 7px;
+  font-size: 15px;
+}
+.gif p{
+  text-align: left;
+  color: white;
+  font-size: 17px;
+  font-style: italic;
+  letter-spacing: 0;
+
+}
+.gif img{
+  float: right;
+  margin-right:25%;
 }
