@@ -55,6 +55,7 @@ nav a:hover{
   margin: auto;
   background-color: rgba(0,0,0,0.9);
   font-style: italic;
+  font-size: 40px;
 
 }
 .one p{
@@ -72,4 +73,29 @@ nav a:hover{
   background-color: rgba(0,0,0,0.9);
   color: white;
   margin-top: 10px;
+}
+footer{
+  background-color:#FFFE;
+  height: auto;
+  text-align: center;
+
+}
+footer table {
+  position: relative;
+  right:-80px;
+  border-collapse: collapse;
+}
+footer tr,th,td{
+  border: 1px solid black;
+  padding: 10px;
+}
+footer tr:hover{
+  background-color: #854;
+  transition: 400ms;
+}
+footer p{
+  float: right;
+  position: relative;
+  left:-80px;
+  padding: 10px;
 }
